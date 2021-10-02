@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Cesar Gimenez</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Cesar Gimenez</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a class="nav__link active-link" href="#home"
+                ><i class="fa-solid fa-house nav__icon"></i> Home</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#about"
+                ><i class="fa-solid fa-user nav__icon"></i> Sobre mi</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#skills"
+                ><i class="fa-solid fa-laptop-code nav__icon"></i> Mis
+                habilidades</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#portfolio"
+                ><i class="fa-solid fa-image nav__icon"></i> Mis proyectos</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#contact"
+                ><i class="fa-solid fa-message nav__icon"></i> Contacto</a
+              >
+            </li>
+          </ul>
+          <i class="fa-solid fa-xmark nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <i class="fa-solid fa-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="fa-solid fa-border-all"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a href="" target="_blank" class="home__social-icon"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="" target="_blank" class="home__social-icon"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="" target="_blank" class="home__social-icon"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="" target="_blank" class="home__social-icon"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+            <div class="home__img">
+              <img class="home-img" src="assets/img/img_home.jpg" alt="" />
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Hola, soy Cesar</h1>
+              <h3 class="home__subtitle typing"></h3>
+              <p class="home__description"></p>
+              <a href="#contact" class="button button--flex">
+                <i class="fa-solid fa-message nav__icon button__icon"></i>
+                Contacto
+              </a>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <span class="home__scroll-name"
+                >Bajar <i class="fa-solid fa-arrow-down home__scroll-arrow"></i
+              ></span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section container" id="about">
+        <h2 class="section__title about__title">Sobre mi</h2>
+        <div class="about__data">
+          <p class="about__description">
+            Soy estudiante de Ingenieria Telemática en Venezuela, tengo 26 años
+            y me inclino por el desarrollo de aplicaciones web y moviles, en mi
+            tiempo libre busco la manera de incrementar mis conocimientos y
+            habilidades en el area de desarrollo, ya que poseo muchas ganas de
+            seguir creciendo en dicho mundo y conocer aun mas tecnologias de las
+            que ya conozco. Otros datos: Me gusta la comida, la música, viajar,
+            videojuegos y deportes como el futbol y el baloncesto.
+          </p>
+        </div>
+        <div class="about__buttons">
+          <a
+            download=""
+            href="assets/pdf/CV_CesarGimenez.pdf"
+            class="button button--flex"
+            >Descargar CV <i class="fa-solid fa-download button__icon"></i
+          ></a>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Mis habilidades</h2>
+        <span class="section__subtitle">En desarrollo</span>
+
+        <div class="skills__container container grid">
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <h1 class="skills__titles">
+                <i class="fa-solid fa-angle-left"></i>/<i
+                  class="fa-solid fa-angle-right"
+                ></i>
+                Frontend <i class="fa-solid fa-angle-down skills__arrow"></i>
+              </h1>
+            </div>
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skill__name">HTML</h3>
+                  <span class="skill__number">90%</span>
+                </div>
+                <div class="skill_bar">
+                  <span class="skill_percent skill_html"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skill__name">CSS</h3>
+                  <span class="skill__number">80%</span>
+                </div>
+                <div class="skill_bar">
+                  <span class="skill_percent skill_css"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skill__name">JavaScript</h3>
+                  <span class="skill__number">80%</span>
+                </div>
+                <div class="skill_bar">
+                  <span class="skill_percent skill_js"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skill__name">React</h3>
+                  <span class="skill__number">70%</span>
+                </div>
+                <div class="skill_bar">
+                  <span class="skill_percent skill_react"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <h1 class="skills__titles">
+                {...} Backend
+                <i class="fa-solid fa-angle-down skills__arrow"></i>
+              </h1>
+            </div>
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skill__name">Ruby</h3>
+                  <span class="skill__number">60%</span>
+                </div>
+                <div class="skill_bar">
+                  <span class="skill_percent skill_ruby"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skill__name">Python</h3>
+                  <span class="skill__number">70%</span>
+                </div>
+                <div class="skill_bar">
+                  <span class="skill_percent skill_python"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skill__name">NodeJS</h3>
+                  <span class="skill__number">80%</span>
+                </div>
+                <div class="skill_bar">
+                  <span class="skill_percent skill_node"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skill__name">Firebase</h3>
+                  <span class="skill__number">70%</span>
+                </div>
+                <div class="skill_bar">
+                  <span class="skill_percent skill_firebase"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Mis proyectos</h2>
+        <span class="section__subtitle">Mas recientes</span>
+
+        <div class="portoflio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/polarapp.png"
+                alt=""
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">PolarApp</h3>
+                <p class="portfolio__description">
+                  Aplicacion web del tipo administrativa con tematica de
+                  Empresas Polar C.A, donde se manejan empleados, productos y
+                  facturacion.
+                </p>
+              </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/photopost.png"
+                alt=""
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">PhotoPost</h3>
+                <p class="portfolio__description">
+                  Aplicacion web como una red social, con posibilidades de subir
+                  nuevas imagenes, comentar, dar like y observar las imagenes de
+                  otros.
+                </p>
+              </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/movieflix.png"
+                alt=""
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Movieflix</h3>
+                <p class="portfolio__description">
+                  Aplicacion web de peliculas al estilo Netflix, con planes de
+                  suscripcion, informacion sobre peliculas y poder comentar
+                  sobre estas (No se puede reproducir la pelicula)
+                </p>
+              </div>
+            </div>
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/glowing.png" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Glowing</h3>
+                <p class="portfolio__description">
+                  Sitio web sencillo para tienda de maquillaje y productos de
+                  skincare
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next">
+            <i class="fa-solid fa-circle-arrow-right swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="fa-solid fa-circle-arrow-left swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contacto</h2>
+        <span class="section__subtitle">Elije la via de contacto </span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__info flex">
+              <h3 class="contact__title">Escribeme:</h3>
+              <a
+                href="https://api.whatsapp.com/send?phone=04245314547"
+                target="_blank"
+                class="btn-contact"
+              >
+                <i class="fa-brands fa-whatsapp"></i
+              ></a>
+              <p>+584245314547</p>
+              <a
+                href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+                target="_blank"
+                class="btn-contact"
+              >
+                <i class="fa-solid fa-envelope"></i
+              ></a>
+              <p>cesargimenez760@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scrollup"
+      ><i class="fa-solid fa-arrow-up scrollup-icon"></i
+    ></a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
